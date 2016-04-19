@@ -1,0 +1,112 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+}
+.content {
+  display: block;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 10px;
+}
+header {
+  line-height: 70px;
+  position: relative;
+}
+header a {
+  text-decoration: none;
+  color: black;
+  line-height: 70px;
+}
+header a #logo {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background: gray;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  margin-right: 20px;
+}
+header a #name {
+  position: absolute;
+  font-size: 50px;
+}
+header ul.social-media {
+  float: right;
+  list-style: none;
+}
+header ul.social-media li {
+  font-size: 2.5rem;
+  display: inline;
+}
+header ul.social-media li a {
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  background: black;
+  text-align: center;
+  line-height: 3rem;
+  border-radius: 3rem;
+  color: white;
+}
+nav {
+  margin: 20px 0 20px 0;
+  padding: 10px 0;
+  border: 1px solid black;
+  background: darkgray;
+}
+nav ul {
+  padding-left: 0px;
+  list-style: none;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.6em;
+  padding: 0 10px;
+}
+section {
+  font-size: 1.5em;
+}
+section article.main-article {
+  float: left;
+  width: 75%;
+}
+section article.main-article h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0px;
+}
+section article.main-article time {
+  margin-top: -20px;
+  font-size: 0.8rem;
+}
+section article.main-article figure.lead-photo {
+  background: gray;
+  margin: 10px 0px;
+  width: calc(100% -2px);
+  padding-top: 75%;
+}
+section aside {
+  float: right;
+  width: 25%;
+}
+section aside article {
+  margin: 5px;
+}
+section aside article h3 {
+  font-size: 1.3rem;
+}
+section aside article figure {
+  margin: 10px 0;
+  background: gray;
+  width: 100%;
+  padding-top: 100%;
+}

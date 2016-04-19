@@ -1,0 +1,75 @@
+@media screen and ( max-width: 800px ) {
+
+  .content {
+    position: relative;
+    padding-bottom: 90px;
+  }
+
+  header {
+    position: static;
+
+    ul.social-media {
+      position: absolute;
+      bottom: 0px;
+      left: 50%;
+      transform: translateX(-50%);
+      border: 1px solid black;
+      background: gray;
+      li {
+        padding: 0 20px;
+      }
+    }
+  }
+  nav {
+    background: none;
+    border: none;
+    text-align: center;
+    &:before {
+      content: "menu";
+      display: inline;
+      background: darkgray;
+      border: 1px solid black;
+      font-size: 1.5em;
+      padding: 3px 10px;
+    }
+    &:hover {
+      ul {
+        display: block;
+        li {
+          display: block;
+          margin: 10px;
+        }
+      }
+    }
+    ul {
+      display: none;
+      flex-direction: column;
+
+    }
+
+
+
+  }
+
+
+  section {
+    article.main-article {
+      width: 100%;
+
+      &:after {
+        display: block;
+        content: " ";
+        margin-top: 20px;
+        border-bottom: 1px solid black;
+      }
+    }
+
+    aside {
+      width: 100%;
+    }
+  }
+
+  footer {
+    display: none;
+  }
+}
